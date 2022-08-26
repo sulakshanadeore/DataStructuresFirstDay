@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresFirstDay", "DataStructuresFirstDay\DataStructuresFirstDay.csproj", "{110F8D0D-424D-4251-BCE9-F99ECE81DDD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F} = {101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLibrary", "HRLibrary\HRLibrary.csproj", "{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{110F8D0D-424D-4251-BCE9-F99ECE81DDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{110F8D0D-424D-4251-BCE9-F99ECE81DDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{110F8D0D-424D-4251-BCE9-F99ECE81DDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101EC6E3-64CC-4FDF-AD33-D585B3CA5B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
