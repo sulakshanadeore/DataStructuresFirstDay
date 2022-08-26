@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DataStructuresFirstDay.ObjectArrayDemo</StartupObject>
+    <StartupObject>DataStructuresFirstDay.ListOfObjectsDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HRLibrary">
@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedListDemo.cs" />
+    <Compile Include="LinkedListObjectsDemo.cs" />
+    <Compile Include="ListOfObjectsDemo.cs" />
     <Compile Include="ObjectArrayDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

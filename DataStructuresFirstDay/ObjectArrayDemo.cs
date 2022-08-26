@@ -19,7 +19,7 @@ namespace DataStructuresFirstDay
                 emp[i].EmpID = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter Empname");
                 emp[i].EmpName = Console.ReadLine();
-                Console.WriteLine("Eneter Deptno");
+                Console.WriteLine("Enter Deptno");
                 emp[i].DeptNo= Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter City");
                 emp[i].City = Console.ReadLine();
