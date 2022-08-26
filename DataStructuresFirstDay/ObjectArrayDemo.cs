@@ -11,6 +11,7 @@ namespace DataStructuresFirstDay
         static void Main(string[] args)
         {
             Employee[] emp = new Employee[2];
+
             for (int i = 0; i < emp.Length; i++)
             {
                emp[i] = new Employee();
