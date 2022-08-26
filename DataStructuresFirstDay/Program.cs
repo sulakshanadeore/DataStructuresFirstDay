@@ -26,7 +26,7 @@ namespace DataStructuresFirstDay
             for (int i = 0; i < arr.GetLength(0); i++)
             {
                 for (int j = 0; j < arr.GetLength(0); j++)
-                {
+                         {
                     Console.Write(" {0} ", arr[i, j]);
                 }
                 Console.WriteLine();
